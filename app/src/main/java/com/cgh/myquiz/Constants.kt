@@ -1,7 +1,16 @@
 package com.cgh.myquiz
 
 object Constants {
+
+    const val USER_NAME : String = "user_name"
+    const val TOTAL_QUESTIONS : String = "total_questions"
+    const val CORRECT_ANSWERS : String = "correct_answer"
+
+
+
+
     fun getQuestions():ArrayList<Question>{
+
         val questionsList = ArrayList<Question>()
 
         val que1 = Question(
@@ -68,7 +77,7 @@ object Constants {
             "Alemania",
             "Fiji",
             "Nueva Zelanda",
-            3
+            2
         )
         questionsList.add(que6)
 
@@ -79,7 +88,7 @@ object Constants {
             "Alemania",
             "Argentina",
             "India",
-            3
+            1
         )
         questionsList.add(que7)
 
